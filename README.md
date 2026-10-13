@@ -168,8 +168,11 @@ database did, and both look like the sensor failing.
   arranged inside the plush, so nothing moves the joint afterwards. Check the
   pinhole is clear, then hands off until it has cured.
 - The pinhole may sit near the tube wall. That is fine as long as it is inside.
-- Strain relief: mount the board on a stiff card and tie the tube to the card a
-  few cm back with a small slack loop. Stuff around the card, never pull on the tube.
+- Strain relief: a stiff card brace sounds right and did not fit in practice; the
+  tube leaves the chip at a right angle. What worked: wrap the cables and tube
+  loosely around the bulb so nothing tugs the joint, and stuff around them, never
+  by pulling on the tube. Every hug pushes on the joint from inside, which is why
+  the glue matters.
 - The AHT20 stays outside the tube, or it cannot measure the plush's air.
 - The power bank may switch itself off when the draw is low and not restart on
   its own. Press its button after plugging in. Point its button and the ESP32's
